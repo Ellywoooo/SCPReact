@@ -1,0 +1,37 @@
+/*styles for the Nav component*/
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(85, 17, 107);
+    margin-bottom: 1vh;
+    overflow: hidden;
+    color: azure;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /*Align items to the start*/
+
+}
+
+nav li{
+    padding: 14px 20px;
+
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(85, 17, 107);
+}
+
+.link:hover {
+    background-color: #ee0909;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
